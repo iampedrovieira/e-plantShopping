@@ -37,19 +37,21 @@
 }
 
 .landing_content {
- margin-top: 430px;
-  margin-left: 100px;
-  transform: translate(-50%, -50%);
+  margin-top: 100px; /* Adjust as needed */
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto; /* Center horizontally */
+  transform: none; /* Remove translate to avoid cutting */
   z-index: 1;
   text-align: center;
-  /* background-color: red; */
-  width: 400px;
-  height: 400px;
+  width: 80%; /* Adjust width for better responsiveness */
+  height: auto; /* Allow height to adjust dynamically */
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  gap: 10px;
+  gap: 10px; /* Add spacing between elements */
+  padding: 20px; /* Add padding for better spacing */
+  overflow: visible; /* Ensure content is not cut off */
 }
 
 .content p,
